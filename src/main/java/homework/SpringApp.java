@@ -1,2 +1,7 @@
-package homework;public class SpringApp {
+package homework;
+
+public class SpringApp {
+    public static void main(String[] args) {
+
+    }
 }
