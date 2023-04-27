@@ -10,7 +10,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class SpringApp {
     public static void main(String[] args) {
 
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(AppConfig.class);
 
         Car car = context.getBean("car", Car.class);
         Bus bus = context.getBean("bus", Bus.class);

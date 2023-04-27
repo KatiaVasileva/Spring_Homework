@@ -2,7 +2,7 @@ package homework.pojo;
 
 public class Driver {
     private final String name;
-    Transport transport;
+    private Transport transport;
 
     public Driver(String name, Transport transport) {
         this.name = name;
